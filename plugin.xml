@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Artikel-Anzahl pro Kategorie im Menü</label>
+    <label lang="en">Article count per category in the menu</label>
+
+    <version>1.3.0</version>
+    <copyright>Copyright (c) 2021, Netzhirsch GbR</copyright>
+    <license>proprietary</license>
+    <link>https://www.netzhirsch.de</link>
+    <author>Netzhirsch GbR</author>
+    <compatibility minVersion="5.2.0" />
+    
+    <description lang="de">Nach der Installation dieses Plugins, ist es möglich in der Kategorie einzustellen, ob die Anzahl der Artikel in der Navigation ausgegeben werden soll. Gleichzeitig kann diese Ausgabe bei leeren Kategorien ausgeblendet werden. Leere Kategorien können an dieser Stelle auch komplett ausgeblendet werden.</description>
+    <description lang="en">After installing this plugin, it is possible to set in the category whether the number of articles should be output in the navigation. At the same time, this output can be hidden in empty categories. Empty categories can be completely hidden at this point.</description>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung des Plugins.</changes>
+        <changes lang="en">Initial Release of the plugin.</changes>
+    </changelog>
+    
+    <changelog version="1.0.1">
+        <changes lang="de">Bugfix: Die Einstellungen funktionieren nun auch für Unterkategorien.<br />Erweiterung: Auch für das Advanced-Menü wird nun die Anzahl ausgegeben und/oder eine Unterkategorie ausgeblendet.</changes>
+        <changes lang="en">Bugfix: The settings now work for subcategories too.<br />Extension: Also for the Advanced menu the number is displayed and/or a subcategory hidden.</changes>
+    </changelog>
+    
+    <changelog version="1.0.2">
+        <changes lang="de">Im Advanced-Menü kam es beim Ausblenden von leeren Kategorien zu ungewollten Verschiebungen.</changes>
+        <changes lang="en">In the Advanced menu, hiding empty categories resulted in unwanted shifts.</changes>
+    </changelog>
+
+    <changelog version="1.1.0">
+        <changes lang="de">Kompatibilität zu Shopware 5.5.0 hergestellt: ionCube-Verschlüsselung wurde entfernt.</changes>
+        <changes lang="en">Compatibility with Shopware 5.5.0 made: ionCube encryption has been removed.</changes>
+    </changelog>
+
+    <changelog version="1.1.1">
+        <changes lang="de">Inaktive Artikel werden nun nicht mehr mitgezählt.</changes>
+        <changes lang="en">Inactive articles are no longer counted.</changes>
+    </changelog>
+
+    <changelog version="1.1.2">
+        <changes lang="de">Artikel, die für Kundengruppen ausgeschlossen sind, werden nur noch mitgezählt, wenn die Kundengruppe übereinstimmt.</changes>
+        <changes lang="en">Articles that are excluded for customer groups are only counted if the customer group matches.</changes>
+    </changelog>
+
+    <changelog version="1.2.0">
+        <changes lang="de">Komplette Überarbeitung der Zählung der Artikel pro Kategorie. Damit einhergehend konnte eine gravierende Performancesteigerung erreicht werden.</changes>
+        <changes lang="en">Complete revision of the counting of articles per category. Along with this, a serious increase in performance could be achieved.</changes>
+    </changelog>
+
+    <changelog version="1.2.1">
+        <changes lang="de">Inaktive Artikel werden nun nicht mehr mitgezählt.</changes>
+        <changes lang="en">Inactive articles are no longer counted.</changes>
+    </changelog>
+
+    <changelog version="1.3.0">
+        <changes lang="de">In den Plugin-Einstellungen kann nun ausgewählt werden, ob die Anzahl in der Hauptnavigation und/oder in der Kategorie-Sidebar angezeigt werden soll.</changes>
+        <changes lang="en">In the plugin settings you can now select whether the number should be displayed in the main navigation and / or in the category sidebar.</changes>
+    </changelog>
+</plugin>
